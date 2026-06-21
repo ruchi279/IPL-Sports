@@ -3,17 +3,17 @@
 A fully static, single-page IPL Analytics Dashboard built from raw ball-by-ball data covering all 18 IPL seasons from 2008 to 2025. No backend, no build step, no server just host the files and it works.
 
 ipl-dashboard/
-├── index.html                  # The dashboard — fully self-contained (HTML+CSS+JS)
+├── index.html                  
 ├── images/
-│   ├── README.md                # Instructions for naming/placing player photos
-│   ├── sai_sudharsan.jpg        # ← YOU add this (see below)
-│   ├── prasidh_krishna.jpg      # ← YOU add this
-│   └── nicholas_pooran.jpg      # ← YOU add this
-├── ball_by_ball_data.csv        # 278,205 rows — every ball bowled 2008–2025 (52 MB)
-├── ball_by_ball_data.csv.gz     # Same file, gzip-compressed (2.2 MB) — optional, for easy upload
-├── teams_data.csv               # 16 teams with IDs, short names, logo URLs
+│   ├── README.md               
+│   ├── sai_sudharsan.jpg        
+│   ├── prasidh_krishna.jpg     
+│   └── nicholas_pooran.jpg      
+├── ball_by_ball_data.csv       
+├── ball_by_ball_data.csv.gz     
+├── teams_data.csv               
 ├── .gitignore
-└── README.md                    # This file
+└── README.md                    
 
 
 🗂 Data Schema
